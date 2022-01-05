@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Red Hat Text', sans-serif;
+    background-color: hsl(234, 17%, 12%);
+    background-image: url(images/bg-stars.svg);
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+}
+
+.container h4{
+    color: white;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.wrapper{
+    margin-top: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cd-wrapper{
+    padding: 20px;
+}
+
+.cd-wrapper h2{
+    color: hsl(345, 95%, 68%);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: hsl(236, 21%, 26%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 110px;
+    width: 130px;
+    font-size: 45px;
+    font-weight: 10px;
+}
+
+ span{
+    color: hsl(237, 18%, 59%);
+    font-weight: lighter;
+    font-size: 8px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 20px;
+}
+
+.footer{
+    position: fixed;
+    overflow-x: hidden;
+    bottom: 0;
+}
+
+.logo{
+   position: relative;
+   top: 220px;
+   z-index: 999;
+}
+
+.logo ul{
+    list-style: none;
+}
+
+.logo li{
+    display: inline;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.logo ul>li:hover{
+    background-color: hsl(345, 95%, 68%);
+}
+
